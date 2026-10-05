@@ -8,6 +8,9 @@ A free local Windows app by **Incepta Studios** that turns video into relative d
 
 ## Features
 
+- Small / Base selection; optional Base download (about 458 MB), verified with SHA-256.
+- Base is CC BY-NC 4.0, noncommercial use only. Small remains included under Apache-2.0.
+
 - Drag a local video into the source viewport.
 - Reset the project to clear source, depth preview and clip selection.
 - Check for updates from GitHub; download and install new releases manually.
@@ -21,7 +24,7 @@ A free local Windows app by **Incepta Studios** that turns video into relative d
 
 ## Install
 
-Windows 10/11, 64-bit. Download `incepta_studio-Setup-0.1.7.exe` from Releases, install and launch **incepta_studio**. Python, the Small checkpoint and runtime libraries are bundled; no model download is required. The offline installer is about 2 GB. An NVIDIA driver is required for CUDA acceleration.
+Windows 10/11, 64-bit. Download `incepta_studio-Setup-0.1.8.exe` from Releases, install and launch **incepta_studio**. Python, the Small checkpoint and runtime libraries are bundled; no model download is required. The offline installer is about 2 GB. An NVIDIA driver is required for CUDA acceleration.
 
 This is an **unsigned early release**. Tested on Windows with NVIDIA RTX 3060; other GPUs and CPU performance have not been validated. No macOS installer is available yet.
 
@@ -33,7 +36,7 @@ Depth is relative, not a distance in meters. Near objects appear lighter. PNG de
 
 Interface and local integration: **Incepta Studios**, an independent project. This is not an official DepthAnything or ByteDance product.
 
-Model and upstream engine: [Video Depth Anything](https://github.com/DepthAnything/Video-Depth-Anything), authors of the project / ByteDance. Only **Small** is bundled, under Apache-2.0. Base and Large are not included and have separate noncommercial license terms.
+Model and upstream engine: [Video Depth Anything](https://github.com/DepthAnything/Video-Depth-Anything), authors of the project / ByteDance. Only **Small** is bundled, under Apache-2.0. Base is available as an optional download under CC BY-NC 4.0, for noncommercial use only. Large is not included.
 
 Runtime components retain their own licenses, including FFmpeg GPLv3. See [third-party notices](THIRD_PARTY_NOTICES.md) and [Apache-2.0](LICENSE). The application also provides an About and licenses section.
 

@@ -18,3 +18,8 @@ FFmpeg 7.1 essentials by gyan.dev is invoked as a separate executable via imagei
 Electron 44.5.1 / Chromium: license files LICENSE.electron.txt and LICENSES.chromium.html are installed beside the application executable.
 
 Do not remove upstream notices when redistributing this application. This local installer is an unsigned development build, not a signed public release.
+
+
+## Optional Base model in version 0.1.8
+
+Video Depth Anything Base, authors / ByteDance. Downloaded separately, not bundled. CC BY-NC 4.0: noncommercial use only. https://huggingface.co/depth-anything/Video-Depth-Anything-Base https://creativecommons.org/licenses/by-nc/4.0/ . The Small model license does not apply to Base.
