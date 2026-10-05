@@ -8,6 +8,10 @@ A free local Windows app by **Incepta Studios** that turns video into relative d
 
 ## Features
 
+- Drag a local video into the source viewport.
+- Reset the project to clear source, depth preview and clip selection.
+- Check for updates from GitHub; download and install new releases manually.
+
 - Select a clip using start/end sliders, seconds or the current frame.
 - Preview source and depth together.
 - Fast, Balanced and Detailed processing settings.
@@ -17,7 +21,7 @@ A free local Windows app by **Incepta Studios** that turns video into relative d
 
 ## Install
 
-Windows 10/11, 64-bit. Download `incepta_studio-Setup-0.1.4.exe` from Releases, install and launch **incepta_studio**. Python, the Small checkpoint and runtime libraries are bundled; no model download is required. The offline installer is about 2 GB. An NVIDIA driver is required for CUDA acceleration.
+Windows 10/11, 64-bit. Download `incepta_studio-Setup-0.1.7.exe` from Releases, install and launch **incepta_studio**. Python, the Small checkpoint and runtime libraries are bundled; no model download is required. The offline installer is about 2 GB. An NVIDIA driver is required for CUDA acceleration.
 
 This is an **unsigned early release**. Tested on Windows with NVIDIA RTX 3060; other GPUs and CPU performance have not been validated. No macOS installer is available yet.
 
